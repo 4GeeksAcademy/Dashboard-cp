@@ -4,19 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sarah's Studio Brand Dashboard helps creators track campaign revenue, audience impact, engagement, affiliate performance, and recent brand collaborations in one clear dashboard.">
+    <meta name="keywords"
+        content="brand dashboard, creator analytics, influencer marketing, campaign performance, affiliate revenue, engagement metrics, brand collaborations, content creator dashboard">
+    <meta name="author" content="Sarah's Studio">
+    <meta name="application-name" content="Sarah's Studio Brand Dashboard">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#111827">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sarah's Studio Brand Dashboard">
+    <meta property="og:description"
+        content="Track collaborations, engagement, revenue, and content performance with a clean creator-focused analytics dashboard.">
+    <meta property="og:site_name" content="Sarah's Studio">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sarah's Studio Brand Dashboard">
+    <meta name="twitter:description"
+        content="Creator analytics dashboard for campaign revenue, engagement, affiliate products, and brand collaborations.">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+    <title>Sarah's Studio Brand Dashboard | Campaign Performance & Collaborations</title>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Sarah's Studio Brand Dashboard",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "inLanguage": "en",
+            "creator": {
+                "@type": "Organization",
+                "name": "Sarah's Studio"
+            },
+            "description": "A creator-focused dashboard for tracking brand collaborations, campaign revenue, audience impact, engagement metrics, and affiliate product performance."
+        }
+    </script>
 </head>
 
 <body class="bg-gray-100" style="font-family: 'Poppins', sans-serif;">
+    <a href="#main-content"
+        class="sr-only absolute left-4 top-4 z-50 rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-900 shadow focus:not-sr-only">Skip
+        to main content</a>
+
     <!-- Sidebar -->
-    <div class="fixed left-0 top-0 h-full w-64 bg-gray-900 text-white p-6">
+    <aside class="w-full bg-gray-900 p-6 text-white md:fixed md:left-0 md:top-0 md:h-full md:w-64" aria-label="Sidebar">
         <!-- Logo/Title -->
         <div class="mb-8 flex items-center">
             <div
                 class="w-8 h-8 rounded-md bg-gradient-to-br from-pink-500 via-fuchsia-500 to-violet-500 flex items-center justify-center mr-3 shadow-lg shadow-purple-500/20">
-                <div class="flex space-x-1 text-white text-[8px]">
+                <div class="flex space-x-1 text-white text-[8px]" aria-hidden="true">
                     <span>★</span>
                     <span>★</span>
                     <span>★</span>
@@ -26,38 +67,41 @@
         </div>
 
         <!-- Menu Items -->
-        <nav class="mb-8">
+        <nav class="mb-8" aria-label="Primary">
             <ul class="space-y-2">
-                <li><a href="#" class="flex items-center py-2 px-4 rounded hover:bg-gray-700">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <li><span class="flex items-center rounded px-4 py-2 text-white/90">
+                        <svg class="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
                             </path>
                         </svg>
                         Dashboard
-                    </a></li>
-                <li><a href="#" class="flex items-center py-2 px-4 rounded hover:bg-gray-700">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    </span></li>
+                <li><span class="flex items-center rounded px-4 py-2 text-white/90">
+                        <svg class="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z">
                             </path>
                         </svg>
                         Partnerships
-                    </a></li>
-                <li><a href="#" class="flex items-center py-2 px-4 rounded hover:bg-gray-700">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    </span></li>
+                <li><span class="flex items-center rounded px-4 py-2 text-white/90">
+                        <svg class="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
                             </path>
                         </svg>
                         My Content
-                    </a></li>
-                <li><a href="#" class="flex items-center py-2 px-4 rounded hover:bg-gray-700">
-                        <div
-                            class="w-5 h-5 mr-2 rounded-full border-2 border-white-500 flex items-center justify-center text-xs font-bold text-white">
-                            $</div>
+                    </span></li>
+                <li><span class="flex items-center rounded px-4 py-2 text-white/90">
+                        <span
+                            class="mr-2 flex h-5 w-5 items-center justify-center rounded-full border-2 border-white text-xs font-bold text-white"
+                            aria-hidden="true">$</span>
                         Finance
-                    </a></li>
+                    </span></li>
             </ul>
         </nav>
 
@@ -72,30 +116,31 @@
             </div>
             <div>
                 <p class="font-semibold">John Smith</p>
-                <p class="text-xs italic text-gray-400">Content Creator</p>
+                <p class="text-xs italic text-gray-300">Content Creator</p>
             </div>
         </div>
-    </div>
+    </aside>
 
     <!-- Main Content -->
-    <div class="ml-64 p-6">
+    <main id="main-content" class="p-4 md:ml-64 md:p-6">
         <!-- Dashboard Header -->
-        <div class="flex justify-between items-center mb-4">
+        <header class="mb-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>
                 <h2 class="text-xl font-bold">My Brand Dashboard</h2>
                 <p class="text-gray-600 text-xs">Personal performance tracking and campaign ROI overview</p>
             </div>
-            <div class="flex space-x-3">
+            <div class="flex flex-col gap-3 sm:flex-row">
                 <button
-                    class="bg-white text-gray-800 px-3 py-1.5 rounded-lg border border-gray-300 hover:bg-gray-50 text-sm">Download
+                    class="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm text-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Download
                     Report</button>
-                <button class="bg-blue-500 text-white px-3 py-1.5 rounded-lg hover:bg-blue-600 text-sm">New
+                <button
+                    class="rounded-lg bg-blue-500 px-3 py-1.5 text-sm text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">New
                     Campaign</button>
             </div>
-        </div>
+        </header>
 
         <!-- Cards -->
-        <div class="grid grid-cols-4 gap-4">
+        <section class="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4" aria-label="Dashboard summary cards">
             <!-- Card 1: Total Revenue -->
             <div class="bg-white p-4 rounded-lg shadow">
                 <div class="flex justify-between items-center mb-3">
@@ -183,13 +228,13 @@
                     2.1% increase
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Additional Cards -->
-        <div class="grid grid-cols-2 gap-6 mt-6">
+        <section class="mt-6 grid grid-cols-1 gap-6 xl:grid-cols-2" aria-label="Performance details">
             <!-- Card 5: My Content Reach -->
             <div class="bg-white p-4 rounded-lg shadow">
-                <h3 class="text-xs font-medium text-black mb-4">My Content Reach</h3>
+                <h3 class="mb-4 text-base font-medium text-black">My Content Reach</h3>
                 <div class="flex justify-between items-center mb-4">
                     <div class="flex items-center">
                         <div class="w-4 h-4 bg-pink-500 rounded-full"></div>
@@ -232,15 +277,17 @@
 
             <!-- Card 6: Top Affiliate Products -->
             <div class="bg-white p-4 rounded-lg shadow">
-                <h3 class="text-xs font-medium text-black">Top Affiliate Products</h3>
+                <h3 class="text-base font-medium text-black">Top Affiliate Products</h3>
                 <div class="mt-4 overflow-x-auto">
                     <table class="w-full text-left">
+                        <caption class="sr-only">Top affiliate products with average price, revenue and conversion rate
+                        </caption>
                         <thead>
                             <tr class="text-[11px] text-gray-400 uppercase">
-                                <th class="pb-2 font-medium">Brand Partner</th>
-                                <th class="pb-2 font-medium">Avg. Price</th>
-                                <th class="pb-2 font-medium">Revenue</th>
-                                <th class="pb-2 font-medium">Conv.Rate</th>
+                                <th scope="col" class="pb-2 font-medium text-gray-500">Brand Partner</th>
+                                <th scope="col" class="pb-2 font-medium text-gray-500">Avg. Price</th>
+                                <th scope="col" class="pb-2 font-medium text-gray-500">Revenue</th>
+                                <th scope="col" class="pb-2 font-medium text-gray-500">Conv.Rate</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -275,16 +322,19 @@
                     </table>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Full Width Card: Recent Brand Collaborations -->
-        <div class="mt-6 bg-white rounded-lg shadow">
+        <section class="mt-6 bg-white rounded-lg shadow" aria-labelledby="recent-brand-collaborations-heading">
             <div class="flex items-center justify-between pt-4 px-4">
-                <h3 class="text-base font-semibold text-black">Recent Brand Collaborations</h3>
-                <a href="#" class="text-sm font-medium text-blue-500 hover:text-blue-600">View All</a>
+                <h3 id="recent-brand-collaborations-heading" class="text-base font-semibold text-black">Recent Brand
+                    Collaborations</h3>
+                <span class="text-sm font-medium text-blue-500">View All</span>
             </div>
             <div class="mt-4 w-full overflow-x-auto">
                 <table class="w-full min-w-full table-fixed text-left">
+                    <caption class="sr-only">Recent brand collaborations showing partner, status, followers, revenue,
+                        payout and ROI</caption>
                     <colgroup>
                         <col class="w-[34%]" />
                         <col class="w-[13%]" />
@@ -295,22 +345,27 @@
                     </colgroup>
                     <thead>
                         <tr class="bg-gray-100">
-                            <th class="px-3 py-2 text-[11px] font-semibold uppercase text-gray-400">Brand Partner</th>
-                            <th class="px-3 py-2 text-[11px] font-semibold uppercase text-gray-400">Status</th>
-                            <th class="px-3 py-2 text-[11px] font-semibold uppercase text-gray-400">Followers</th>
-                            <th class="px-3 py-2 text-[11px] font-semibold uppercase text-gray-400">Revenue</th>
-                            <th class="px-3 py-2 text-[11px] font-semibold uppercase text-blue-600">My Payout</th>
-                            <th class="px-3 py-2 text-[11px] font-semibold uppercase text-gray-400">ROI</th>
+                            <th scope="col" class="px-3 py-3 text-xs font-semibold uppercase text-gray-500">Brand
+                                Partner</th>
+                            <th scope="col" class="px-3 py-3 text-xs font-semibold uppercase text-gray-500">Status</th>
+                            <th scope="col" class="px-3 py-3 text-xs font-semibold uppercase text-gray-500">Followers
+                            </th>
+                            <th scope="col" class="px-3 py-3 text-xs font-semibold uppercase text-gray-500">Revenue</th>
+                            <th scope="col" class="px-3 py-3 text-xs font-semibold uppercase text-blue-600">My Payout
+                            </th>
+                            <th scope="col" class="px-3 py-3 text-xs font-semibold uppercase text-gray-500">ROI</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="border-b border-gray-100 text-sm text-black">
                             <td class="px-3 py-3.5">
                                 <div class="flex items-center gap-3">
-                                    <div class="h-9 w-9 rounded-full bg-gray-200"></div>
+                                    <div class="h-9 w-9 overflow-hidden rounded-full bg-gray-200">
+                                        <img src="images/1.jpg" alt="Luxe Skincare" class="h-full w-full object-cover">
+                                    </div>
                                     <div>
                                         <p class="font-semibold text-black">Luxe Skincare</p>
-                                        <p class="text-xs text-gray-400">Summer Campaign</p>
+                                        <p class="text-xs text-gray-500">Summer Campaign</p>
                                     </div>
                                 </div>
                             </td>
@@ -326,10 +381,12 @@
                         <tr class="border-b border-gray-100 text-sm text-black">
                             <td class="px-3 py-3.5">
                                 <div class="flex items-center gap-3">
-                                    <div class="h-9 w-9 rounded-full bg-gray-200"></div>
+                                    <div class="h-9 w-9 overflow-hidden rounded-full bg-gray-200">
+                                        <img src="images/2.jpg" alt="Urban Apparel" class="h-full w-full object-cover">
+                                    </div>
                                     <div>
                                         <p class="font-semibold text-black">Urban Apparel</p>
-                                        <p class="text-xs text-gray-400">Fall Collection</p>
+                                        <p class="text-xs text-gray-500">Fall Collection</p>
                                     </div>
                                 </div>
                             </td>
@@ -345,10 +402,12 @@
                         <tr class="text-sm text-black">
                             <td class="px-3 py-3.5">
                                 <div class="flex items-center gap-3">
-                                    <div class="h-9 w-9 rounded-full bg-gray-200"></div>
+                                    <div class="h-9 w-9 overflow-hidden rounded-full bg-gray-200">
+                                        <img src="images/3.jpg" alt="Tech Gadgets" class="h-full w-full object-cover">
+                                    </div>
                                     <div>
                                         <p class="font-semibold text-black">Tech Gadgets</p>
-                                        <p class="text-xs text-gray-400">Review Video</p>
+                                        <p class="text-xs text-gray-500">Review Video</p>
                                     </div>
                                 </div>
                             </td>
@@ -364,8 +423,60 @@
                     </tbody>
                 </table>
             </div>
-        </div>
-    </div>
+        </section>
+
+        <section class="mt-6 bg-white rounded-lg shadow" aria-labelledby="recent-brand-collaborations-metrics-heading">
+            <div class="px-6 py-5">
+                <h3 id="recent-brand-collaborations-metrics-heading" class="text-lg font-semibold text-gray-900">Recent
+                    Brand Collaborations</h3>
+            </div>
+            <div class="border-t border-gray-200"></div>
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="px-6 py-5 md:border-r md:border-gray-200">
+                    <div class="flex items-center justify-between gap-4">
+                        <p class="text-base font-semibold text-red-500">Instragram</p>
+                        <p class="text-xs font-semibold text-green-500">+18% growth</p>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gray-500">Clicks</p>
+                        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gray-500">Shares</p>
+                    </div>
+                    <div class="mt-2 flex items-end justify-between">
+                        <p class="text-2xl font-medium text-gray-900">45.2K</p>
+                        <p class="text-xl font-medium text-gray-900">1.2K</p>
+                    </div>
+                </div>
+                <div class="px-6 py-5 md:border-r md:border-gray-200">
+                    <div class="flex items-center justify-between gap-4">
+                        <p class="text-base font-semibold text-black">TikTok</p>
+                        <p class="text-xs font-semibold text-green-500">+32% growth</p>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gray-500">Views</p>
+                        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gray-500">Completion</p>
+                    </div>
+                    <div class="mt-2 flex items-end justify-between">
+                        <p class="text-2xl font-medium text-gray-900">890K</p>
+                        <p class="text-xl font-medium text-gray-900">42%</p>
+                    </div>
+                </div>
+                <div class="px-6 py-5">
+                    <div class="flex items-center justify-between gap-4">
+                        <p class="text-base font-semibold text-red-500">YouTube</p>
+                        <p class="text-xs font-semibold text-red-500">-2% drop</p>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gray-500">Avg. Watch</p>
+                        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gray-500">CTR</p>
+                    </div>
+                    <div class="mt-2 flex items-end justify-between">
+                        <p class="text-2xl font-medium text-gray-900">43 12s</p>
+                        <p class="text-xl font-medium text-gray-900">2.8%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
