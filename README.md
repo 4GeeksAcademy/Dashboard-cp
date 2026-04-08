@@ -1,41 +1,29 @@
-# HTML Hello
+<div align="center">
+  <img src="./Cecilia_Perdomo.png" alt="Banner de Cecilia Perdomo">
+</div> 
+</br>
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+# 🎯 Reto: Un dashboard sencillo en Tailwind CSS
+<div align="center">
+  <img src="./solution.png" alt="Un dashboard sencillo en Tailwind CSS">
+</div> 
+</br>
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+Una influencer que está empezando a relacionarse con marcas te contacta porque necesita medir el impacto de sus anuncios y su conversión. El problema es que tiene múltiples cuentas en redes sociales (Instagram, TikTok, YouTube, etc.) y necesita entender cómo puede consolidar toda la información en un tablero de reporte para responder preguntas básicas como:
+- ¿Cuánto dinero estoy generando en comisiones?
+- ¿Qué productos están generando más ingresos?
+- ¿Qué tan bien convierten mis anuncios (conversiones / alcance)?
+- ¿Qué plataformas están generando mejor retorno (ingresos/costes)?
+- ¿Cuál es el engagement rate por plataforma y por producto?
 
-## What to do next?
+La influencer te contacta porque necesita un reporte claro (un dashboard) que le permita supervisar su negocio sin perderse en datos dispersos entre múltiples plataformas. Y tú, aunque estás empezando, quieres entregar una propuesta sólida y profesional, así que tu misión es diseñar un dashboard que consolide la información de todas sus redes sociales y le muestre lo más importante para tomar decisiones rápidas.
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+Contexto del negocio:
+- Tiene 3 productos que promociona con tres precios distintos (Producto A: 50€, Producto B: 120 €, Producto C: 80 €)
+- Por cada venta generada recibe una comisión del 15%
 
+## Instalación
+Para levantar el servidor ejecuta el siguiente comando: 
 ```bash
 $ pip3 install flask && python3 server.py
 ```
-
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-- If you want to use Tailwind CSS, add it optionally via the official Tailwind CSS v4 CDN inside the same `<head>`:
-
-```html
-<head>
-  ...
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-### Contributors
-
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
